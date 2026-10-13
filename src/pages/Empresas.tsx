@@ -157,7 +157,7 @@ export const Empresas: React.FC = () => {
     return (
       nome === 'organização interna' ||
       nome === 'organizacao interna' ||
-      nome === 'clientes sem contrato' ||
+      nome === 'clientes sem contrato'
     )
   }
 
