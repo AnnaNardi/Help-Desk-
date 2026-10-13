@@ -1,0 +1,11 @@
+{
+  "name": "central-helpdesk-api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "pg": "^8.16.3"
+  }
+}

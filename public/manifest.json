@@ -1,0 +1,49 @@
+{
+  "name": "Sistema Help Desk",
+  "short_name": "CI HelpDesk",
+  "description": "Sistema de gestão de chamados, atendimento técnico e manutenções preventivas",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0F1222",
+  "theme_color": "#2563EB",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["business", "productivity", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Abrir Chamado",
+      "url": "/chamados/novo",
+      "description": "Abrir um novo chamado no Help Desk"
+    },
+    {
+      "name": "Meus Chamados",
+      "url": "/chamados",
+      "description": "Ver lista de chamados"
+    },
+    {
+      "name": "Manual de Uso",
+      "url": "/manual",
+      "description": "Consultar manual do usuário e equipe técnica"
+    }
+  ]
+}
